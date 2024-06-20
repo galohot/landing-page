@@ -1,4 +1,4 @@
-<div id="5">
+<div id="portfolio">
     <div class="p-0 container-fluid">
         <div class="row g-0">
             @foreach ($sections as $section)

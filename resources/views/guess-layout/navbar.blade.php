@@ -19,7 +19,7 @@
                 @endforeach
                 <li class="nav-item"><a class="nav-link" href="#4">Objectives</a>
                 </li>
-                <li class="nav-item"><a class="nav-link" href="#5">Portfolio</a>
+                <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a>
                 </li>
                 <li class="nav-item"><a class="nav-link" href="#6">Contact</a>
                 </li>
