@@ -30,7 +30,7 @@
 @foreach ($sections as $section)
     @if ($section->sequence == 1)
         <header class="masthead"
-            style="background-image: url('{{ asset("../storage/{$section->main_image}") }}'); background-color: rgba(0, 0, 0, 0.7); background-blend-mode: multiply;">
+            style="background-image: url('{{ asset("../landing-page/storage/{$section->main_image}") }}'); background-color: rgba(0, 0, 0, 0.7); background-blend-mode: multiply;">
             <div class="container px-4 px-lg-5 h-100">
                 <div class="text-center row gx-4 gx-lg-5 h-100 align-items-center justify-content-center">
                     <div class="col-lg-8 align-self-end">

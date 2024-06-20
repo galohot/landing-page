@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container px-1 px-lg-1">
         <a class="navbar-brand" href="#page-top">
-            <img src="{{ asset("../storage/{$siteSetting->site_logo}") }}" alt="Logo" style="height: 100px;">
+            <img src="{{ asset("../landing-page/storage/{$siteSetting->site_logo}") }}" alt="Logo" style="height: 100px;">
         </a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
             data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"

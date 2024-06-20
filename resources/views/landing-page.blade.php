@@ -7,7 +7,7 @@
         <meta name="author" content="" />
         <title>Creative - Start Bootstrap Theme</title>
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="{{ asset('../build/assets/assets/favicon.ico') }}" />
+        <link rel="icon" type="image/x-icon" href="{{ asset('../landing-page/build/assets/assets/favicon.ico') }}" />
         <!-- Bootstrap Icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Google fonts-->
@@ -49,7 +49,7 @@
         <!-- SimpleLightbox plugin JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
         <!-- Core theme JS-->
-        <script src="{{ asset('../build/assets/js/scripts.js') }}"></script>
+        <script src="{{ asset('../landing-page/build/assets/js/scripts.js') }}"></script>
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
     </body>
 </html>
