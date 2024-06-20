@@ -5,10 +5,10 @@ use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\SectionController;
 use Illuminate\Support\Facades\Route;
 
-Route::prefix('landing-page')->group(function () {
-    Route::get('/',[SectionController::class,'index'])->name('section.index');
-    Route::post('/contact', [ContactFormController::class, 'store'])->name('contact.store');
-});
+// Route::prefix('landing-page')->group(function () {
+// });
+Route::get('/',[SectionController::class,'index'])->name('section.index');
+Route::post('/contact', [ContactFormController::class, 'store'])->name('contact.store');
 
 
 

@@ -3,7 +3,7 @@
         <!-- Section for sequence 2 -->
         <section class="py-5 d-flex align-items-center flex-grow-1" id="{{$section->sequence}}"
             style="@if ($section->has_image)
-                background-image: url('{{ asset("../landing-page/storage/{$section->main_image}") }}'); background-color: rgba(0, 0, 0, 0.7); background-blend-mode: multiply;
+                background-image: url('{{ asset("../storage/{$section->main_image}") }}'); background-color: rgba(0, 0, 0, 0.7); background-blend-mode: multiply;
                 @else
                 background-color:{{ $section->section_color }};
                 @endif">

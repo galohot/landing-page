@@ -7,7 +7,7 @@
                             <a target="_blank" class="portfolio-box" href="{{ asset("../landing-page/storage/{$section->main_image}") }}"
                                 title="Project Name">
                                 <div class="image-wrapper" style="height: 200px; overflow: hidden;">
-                                    <img class="img-fluid" src="{{ asset("../landing-page/storage/{$section->main_image}") }}"
+                                    <img class="img-fluid" src="{{ asset("../storage/{$section->main_image}") }}"
                                         alt="..." style="object-fit: cover;" />
                                 </div>
                                 <div class="portfolio-box-caption">
