@@ -111,9 +111,9 @@ class SectionResource extends Resource
     public static function getPages(): array
     {
         return [
-            'index' => Pages\ListSections::route('/'),
-            'create' => Pages\CreateSection::route('/create'),
-            'edit' => Pages\EditSection::route('/{record}/edit'),
+            'index' => Pages\ListSections::route('/landing-page'),
+            'create' => Pages\CreateSection::route('/landing-page/create'),
+            'edit' => Pages\EditSection::route('/landing-page/{record}/edit'),
         ];
     }
 }
