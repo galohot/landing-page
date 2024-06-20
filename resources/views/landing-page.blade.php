@@ -24,7 +24,7 @@
         <!-- Hero-->
         @include('guess-layout.hero')
         <!-- About-->
-        <div class="m-0 row">
+        <div class="m-0 row d-flex h-75">
             <div class="col-md-6 d-flex flex-column">
                 @include('guess-layout.about-iaf')
             </div>
@@ -32,6 +32,7 @@
                 @include('guess-layout.about-msp')
             </div>
         </div>
+
         <!-- Details-->
         @include('guess-layout.details')
         <!-- Portfolio-->
