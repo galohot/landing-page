@@ -5,18 +5,18 @@ use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\SectionController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/',[SectionController::class,'index'])->name('section.index');
-Route::post('/contact', [ContactFormController::class, 'store'])->name('contact.store');
+Route::get('/landing-page',[SectionController::class,'index'])->name('section.index');
+Route::post('/landing-page/contact', [ContactFormController::class, 'store'])->name('contact.store');
 
 
-Route::get('/dashboard', function () {
+Route::get('/landing-page/dashboard', function () {
     return view('dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::middleware('auth')->group(function () {
-    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
-    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
-    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+    Route::get('/landing-page/profile', [ProfileController::class, 'edit'])->name('profile.edit');
+    Route::patch('/landing-page/profile', [ProfileController::class, 'update'])->name('profile.update');
+    Route::delete('/landing-page/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
 require __DIR__.'/auth.php';
