@@ -52,8 +52,8 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://10.128.153.19/landing-page'),
-    'asset_url' => env('ASSET_URL', 'http://10.128.153.19/landing-page'),
+    'url' => env('APP_URL'),
+    'asset_url' => env('ASSET_URL', env('APP_URL')),
 
     /*
     |--------------------------------------------------------------------------
