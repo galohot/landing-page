@@ -4,7 +4,7 @@
             @foreach ($sections as $section)
                 @if ($section->sequence == 5)
                         <div class="col-lg-4 col-sm-6">
-                            <a target="_blank" class="portfolio-box" href="{{ asset("../landing-page/storage/{$section->main_image}") }}"
+                            <a target="_blank" class="portfolio-box" href="{{ asset("../storage/{$section->main_image}") }}"
                                 title="Project Name">
                                 <div class="image-wrapper" style="height: 200px; overflow: hidden;">
                                     <img class="img-fluid" src="{{ asset("../storage/{$section->main_image}") }}"
