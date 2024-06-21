@@ -7,7 +7,7 @@
         <meta name="author" content="" />
         <title>IAF | MSP</title>
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="{{ asset('../build/assets/assets/none.ico') }}" />
+        <link rel="icon" type="image/x-icon" href="{{ asset('../build/assets/assets/kemlu-favicon.png') }}" />
         <!-- Bootstrap Icons-->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Google fonts-->
