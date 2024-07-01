@@ -52,8 +52,8 @@ return [
     |
     */
 
-    'url' => env('APP_URL'),
-    'asset_url' => env('ASSET_URL', env('APP_URL')),
+    'url' => env('APP_URL', 'https://iaf.kemlu.go.id'),
+    'asset_url' => env('ASSET_URL', 'https://iaf.kemlu.go.id'),
 
     /*
     |--------------------------------------------------------------------------
