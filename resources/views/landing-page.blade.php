@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>IAF | MSP | 2024</title>
+        <title>IAF | HLF | 2024</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="{{ asset("../storage/kemlu-favicon.png") }}" />
         <!-- Bootstrap Icons-->
@@ -20,11 +20,11 @@
     </head>
     <body id="page-top">
         <!-- Navigation-->
-        @include('guess-layout.navbar')
+        {{-- @include('guess-layout.navbar') --}}
         <!-- Hero-->
-        @include('guess-layout.hero')
+        {{-- @include('guess-layout.hero') --}}
         <!-- About-->
-        <div class="m-0 row d-flex h-75">
+        <div class="m-0 row d-flex h-100">
             <div class="col-md-6 d-flex flex-column">
                 @include('guess-layout.about-iaf')
             </div>
@@ -34,17 +34,17 @@
         </div>
 
         <!-- Details-->
-        @include('guess-layout.details')
+        {{-- @include('guess-layout.details') --}}
         <!-- Portfolio-->
-        @include('guess-layout.portfolio')
+        {{-- @include('guess-layout.portfolio') --}}
         <!-- To Site-->
         {{-- @include('guess-layout.to-site') --}}
         <!-- Contact-->
-        @include('guess-layout.contact')
+        {{-- @include('guess-layout.contact') --}}
         <!-- Footer-->
-        <footer class="py-5 bg-light">
+        {{-- <footer class="py-5 bg-light">
             <div class="container px-4 px-lg-5"><div class="text-center small text-muted">{{ $siteSetting->footer_text }}</div></div>
-        </footer>
+        </footer> --}}
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- SimpleLightbox plugin JS-->
